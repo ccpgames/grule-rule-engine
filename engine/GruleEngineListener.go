@@ -2,7 +2,7 @@ package engine
 
 import (
 	"context"
-	"github.com/hyperjumptech/grule-rule-engine/ast"
+	"github.com/ccpgames/grule-rule-engine/ast"
 )
 
 // GruleEngineListener is an interface to be implemented by those who want to listen the Engine execution.

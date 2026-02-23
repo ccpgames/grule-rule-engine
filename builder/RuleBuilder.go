@@ -16,17 +16,17 @@ package builder
 
 import (
 	"fmt"
-	"github.com/hyperjumptech/grule-rule-engine/ast"
-	"github.com/hyperjumptech/grule-rule-engine/logger"
+	"github.com/ccpgames/grule-rule-engine/ast"
+	"github.com/ccpgames/grule-rule-engine/logger"
 	"github.com/rs/zerolog"
 	"github.com/sirupsen/logrus"
 	"go.uber.org/zap"
 	"time"
 
 	"github.com/antlr4-go/antlr/v4"
-	antlr2 "github.com/hyperjumptech/grule-rule-engine/antlr"
-	parser "github.com/hyperjumptech/grule-rule-engine/antlr/parser/grulev3"
-	"github.com/hyperjumptech/grule-rule-engine/pkg"
+	antlr2 "github.com/ccpgames/grule-rule-engine/antlr"
+	parser "github.com/ccpgames/grule-rule-engine/antlr/parser/grulev3"
+	"github.com/ccpgames/grule-rule-engine/pkg"
 )
 
 var (
