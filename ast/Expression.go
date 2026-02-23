@@ -20,8 +20,8 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/hyperjumptech/grule-rule-engine/ast/unique"
-	"github.com/hyperjumptech/grule-rule-engine/pkg"
+	"github.com/ccpgames/grule-rule-engine/ast/unique"
+	"github.com/ccpgames/grule-rule-engine/pkg"
 )
 
 const (

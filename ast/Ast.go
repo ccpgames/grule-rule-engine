@@ -15,7 +15,7 @@
 package ast
 
 import (
-	"github.com/hyperjumptech/grule-rule-engine/logger"
+	"github.com/ccpgames/grule-rule-engine/logger"
 	"github.com/rs/zerolog"
 	"github.com/sirupsen/logrus"
 	"go.uber.org/zap"

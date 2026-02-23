@@ -17,12 +17,12 @@ package examples
 import (
 	"fmt"
 	"github.com/antlr4-go/antlr/v4"
-	antlr2 "github.com/hyperjumptech/grule-rule-engine/antlr"
-	parser3 "github.com/hyperjumptech/grule-rule-engine/antlr/parser/grulev3"
-	"github.com/hyperjumptech/grule-rule-engine/ast"
-	"github.com/hyperjumptech/grule-rule-engine/builder"
-	"github.com/hyperjumptech/grule-rule-engine/engine"
-	"github.com/hyperjumptech/grule-rule-engine/pkg"
+	antlr2 "github.com/ccpgames/grule-rule-engine/antlr"
+	parser3 "github.com/ccpgames/grule-rule-engine/antlr/parser/grulev3"
+	"github.com/ccpgames/grule-rule-engine/ast"
+	"github.com/ccpgames/grule-rule-engine/builder"
+	"github.com/ccpgames/grule-rule-engine/engine"
+	"github.com/ccpgames/grule-rule-engine/pkg"
 	"github.com/stretchr/testify/assert"
 	"testing"
 )
